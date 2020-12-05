@@ -135,6 +135,15 @@
         "hungry"
       ],
       "id": "13"
+    },
+    {
+      "name": "bear",
+      "species": "mammal",
+      "diet": "folivore",
+      "personalityTraits": [
+        "anxious"
+      ],
+      "id": "14"
     }
   ]
 }
