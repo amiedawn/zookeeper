@@ -143,6 +143,10 @@ app.get('/zookeepers', (req, res) => {
   res.sendFile(path.join(__dirname, './public/zookeepers.html'));
 });
 
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "./public/index.html"));
+});
+
 // make server listen to the Express.js server and send data to client
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
